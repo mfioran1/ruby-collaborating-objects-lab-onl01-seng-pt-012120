@@ -1,3 +1,4 @@
+require 'pry'
 class MP3Importer
   attr_reader :path 
   
@@ -6,7 +7,7 @@ class MP3Importer
   end
   
   def files
-  
-  end  
+  binding.pry  
+    end  
   
 end  
